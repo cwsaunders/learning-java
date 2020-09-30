@@ -1,5 +1,7 @@
 Part 1 Notes
 
+
+
 Boilerplate:
 
 In Java, our programs have to include some boilerplate code to function. This boilerplate, an example of which is shown below,
@@ -16,3 +18,10 @@ public class Example {
 
 The examples in the material will not always show the template, but you can assume that your program file always needs one. 
 
+
+
+Print:
+
+System.out.println("Print");
+
+Also sout then (TAB)
