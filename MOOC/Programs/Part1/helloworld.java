@@ -1,4 +1,4 @@
-package MOOC.Programs;
+package MOOC.Programs.Part1;
 
 public class helloworld {
 
