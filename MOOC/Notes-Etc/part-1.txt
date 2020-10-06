@@ -48,3 +48,19 @@ public class Program {
         System.out.println(message);
     }
 }
+
+
+Type casting:
+
+String valueAsString = "42";
+int value = Integer.valueOf(valueAsString);
+
+System.out.println(value);
+
+ALSO:
+
+Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Write a value ");
+        int value = Integer.valueOf(scanner.nextLine());
+        System.out.println("You wrote " + value);
