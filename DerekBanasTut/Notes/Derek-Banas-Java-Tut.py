@@ -17,3 +17,22 @@ final Double floatExample = 42.5;
 final Integer integerExample = 42;
 etc
 '''
+
+# Variable types
+'''
+byte
+short
+double
+integer
+string
+char
+boolean
+float
+long
+'''
+
+# Type casting
+'''
+double testDub = 1.5
+int testInt = (int) testDub
+'''
