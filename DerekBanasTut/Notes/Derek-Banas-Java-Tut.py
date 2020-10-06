@@ -48,6 +48,7 @@ int strInt = Integer.parseInt("10");
 # Math
 '''
 integer++ is the same as integer += 1
+++integer increments before using variable (e.g for print output)
 
 Functions:
 abs
@@ -75,5 +76,13 @@ cosh
 tanh
 toDegrees
 toRadians
+
+****
+finding random int between 5 - 20:
+int minNum = 5;
+int maxNum = 20;
+int randNum = minNum + (int)(Math.random() * ((maxNum - minNum) + 1));
+****
+
 
 '''
