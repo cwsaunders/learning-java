@@ -86,3 +86,16 @@ int randNum = minNum + (int)(Math.random() * ((maxNum - minNum) + 1));
 
 
 '''
+
+# Manipulating Strings
+'''
+System.out.println(stringName.charAt(0)); // finds char at selected array number
+System.out.println(stringName.contains("Christian")); // Returns true or false if the String contains/doesn't contain 'Christian'
+System.out.println(stringName.indexOf("Christian")); // Returns index of "christian" if it exists
+System.out.println(stringName.length()); // Returns length of string
+
+System.out.println("dog equals cat : " + ("dog".equals("cat")) // Returns whether "dog" == "cat"
+note:
+NEVER use == to compare strings, always use method mentioned above
+
+'''
