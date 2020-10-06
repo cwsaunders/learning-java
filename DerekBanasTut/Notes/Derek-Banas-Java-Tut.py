@@ -33,6 +33,47 @@ long
 
 # Type casting
 '''
-double testDub = 1.5
-int testInt = (int) testDub
+Double to int:
+double testDub = 1.5;
+int testInt = (int) testDub;
+
+Double to String:
+String favNum = Double.toString(1.618);
+
+String to Int:
+int strInt = Integer.parseInt("10");
+
+'''
+
+# Math
+'''
+integer++ is the same as integer += 1
+
+Functions:
+abs
+ceil
+floor
+round
+max
+min
+exp
+log
+log10
+pow
+sqrt
+cbrt
+hypot
+PI
+sin
+cos
+tan
+asin
+acos
+atan
+sinh
+cosh
+tanh
+toDegrees
+toRadians
+
 '''
