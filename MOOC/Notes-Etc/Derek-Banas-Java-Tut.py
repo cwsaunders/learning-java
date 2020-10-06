@@ -11,3 +11,9 @@ args <-- Function that stores String[]
 In public static void main() the 'static' means it is a function belonging to a class
 '''
 
+# Constant ( final )
+'''
+final Double floatExample = 42.5;
+final Integer integerExample = 42;
+etc
+'''
