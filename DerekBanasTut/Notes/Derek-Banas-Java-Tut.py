@@ -98,4 +98,11 @@ System.out.println("dog equals cat : " + ("dog".equals("cat")) // Returns whethe
 note:
 NEVER use == to compare strings, always use method mentioned above
 
+System.out.println("dog equals cat : " + ("dog".equalsIgnoreCase("cat")) // Returns whether dog == cat but ignores case
+
+System.out.println(stringName.replace("Christian", "bob")); // Replace christian with bob
+System.out.println(stringName.substring(0,5)); // Prints substring of stringName
+
+
+
 '''
