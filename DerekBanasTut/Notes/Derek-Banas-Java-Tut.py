@@ -106,3 +106,18 @@ System.out.println(stringName.substring(0,5)); // Prints substring of stringName
 
 
 '''
+
+# String Builder
+'''
+Useful for threads. Use this instead of an actual string.
+Code:
+StringBuilder sb = new StringBuilder("I'm a string builder");
+System.out.println(sb.length());
+System.out.println(sb.capacity());
+sb.append("yeah!");
+sb.insert(6, "big ");
+sb.replace(6,8, "wig");
+System.out.println(sb.substring(6,9));
+System.out.println(sb.delete(6,9));
+System.out.println(sb.charAt(4));
+'''
