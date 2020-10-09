@@ -3,8 +3,6 @@ package DerekBanasTut.Programs;
 import java.util.*;
 import java.util.stream.IntStream;
 
-import javax.sound.midi.Soundbank;
-
 public class arraylists {
     public static void main(String[] args) {
         // Array list allows for resizing and easy creation/deletion
