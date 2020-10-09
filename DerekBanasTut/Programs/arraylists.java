@@ -21,7 +21,7 @@ public class arraylists {
 
         Iterator it = aL2.iterator(); // create iterator
 
-        while(it.hasNext()) {
+        while(it.hasNext()) { // Call for each individual value within array (.hasNext())
             System.out.println(it.next());
 
         }
