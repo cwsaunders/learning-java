@@ -13,6 +13,7 @@ public class javatut {
 
         int var1 = 100;
         int v2, v3;
-        
+        int[] a1 = new int[10]; // create new array
+        a1[0] = 1; // assign 1 to array in [0]
     }
 }
