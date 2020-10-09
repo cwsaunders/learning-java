@@ -22,7 +22,7 @@ public class arraylists {
         Iterator it = aL2.iterator(); // create iterator
 
         while(it.hasNext()) { // Call for each individual value within array (.hasNext())
-            System.out.println(it.next());
+            System.out.println(it.next()); // As long as aL2 has a value to output the array will continue to loop
 
         }
 
