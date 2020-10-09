@@ -18,10 +18,12 @@ public class javatut {
         Arrays.fill(a1,2);
         System.out.println(a1[0]);
         System.out.println(a1.length);
-        String[] a2 = {"one", "two"};
-        int[] oneTo10 = IntStream.rangeClosed(1,10).toArray();
+        String[] a2 = {"one", "two"}; // String array
+        int[] oneTo10 = IntStream.rangeClosed(1,10).toArray(); // Fill oneTo10 with numbers 1-10
 
-        for(int x: oneTo10) System.out.println(x);
+        for(int x: oneTo10) System.out.println(x); // Enhanced for loop -- print all values within oneTo10
+
+        System.out.println(Arrays.binarySearch(oneTo10, 9)); // Search for '9' in oneTo10
 
     }
 }
