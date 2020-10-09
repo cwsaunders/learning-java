@@ -16,7 +16,11 @@ public class linkedlists {
         System.out.println(iL1.indexOf(4)); // retrieve index of the value '4'
         iL1.set(0,2); // replace values
         System.out.println(iL1.get(0)); // get whats in 0 index
-
+        iL1.remove(1); // remove value at 1 index
+        // iL1.clear() // remove all values
+        System.out.println(iL1.size()); // return size of linkedlist
+        Object[] a9 = iL1.toArray(); // Convert linkedlist into an array
+        for(Integer x: iL1) System.out.println(x); // print out all items in linkedlist
     
 
 
