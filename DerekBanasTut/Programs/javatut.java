@@ -15,5 +15,13 @@ public class javatut {
         int v2, v3;
         int[] a1 = new int[10]; // create new array
         a1[0] = 1; // assign 1 to array in [0]
+        Arrays.fill(a1,2);
+        System.out.println(a1[0]);
+        System.out.println(a1.length);
+        String[] a2 = {"one", "two"};
+        int[] oneTo10 = IntStream.rangeClosed(1,10).toArray();
+
+        for(int x: oneTo10) System.out.println(x);
+
     }
 }
