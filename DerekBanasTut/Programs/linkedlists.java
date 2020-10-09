@@ -1,7 +1,6 @@
 package DerekBanasTut.Programs;
 
 import java.util.*;
-import java.util.stream.IntStream;
 
 public class linkedlists {
 
